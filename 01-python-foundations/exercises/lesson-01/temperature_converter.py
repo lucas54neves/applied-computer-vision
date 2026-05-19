@@ -6,10 +6,8 @@ def convert_user_input(user_input: str) -> float:
     return float(user_input)
 
 
-def user_input() -> float:
-    return convert_user_input(
-        input("Insert a temperature in Celsius to convert to Fahrenheit: ")
-    )
+def user_input() -> str:
+    return input("Insert a temperature in Celsius to convert to Fahrenheit: ")
 
 
 def main():
@@ -19,4 +17,5 @@ def main():
     print(f"Temperature in Fahrenheit: {temperature_as_fahrenheit} F")
 
 
-main()
+if __name__ == "__main__":
+    main()
