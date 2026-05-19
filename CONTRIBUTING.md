@@ -35,6 +35,21 @@ Verificar/corrigir todos os arquivos do repositório:
 pre-commit run --all-files
 ```
 
+## Testes
+
+Os testes usam [pytest](https://docs.pytest.org/). Instale a dependência de
+desenvolvimento (uma vez por clone):
+
+```bash
+uv pip install -r requirements-dev.txt
+```
+
+Rode todos os testes a partir da raiz do repositório:
+
+```bash
+pytest
+```
+
 ## Configuração
 
 - `ruff.toml` — regras de lint e formatação.
