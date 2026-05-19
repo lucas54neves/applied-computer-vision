@@ -1,0 +1,15 @@
+# Configuração do ruff para todo o repositório.
+# Auto-descoberta: vale para qualquer arquivo .py/.ipynb em qualquer lição.
+target-version = "py312"
+line-length = 88
+
+[lint]
+# E/F  -> erros e pyflakes
+# I    -> ordenação de imports
+# UP   -> sintaxe Python moderna (pyupgrade)
+# B    -> bugs comuns (flake8-bugbear)
+# SIM  -> simplificações (flake8-simplify)
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[format]
+# Padrões do ruff-format (estilo compatível com Black).
