@@ -17,4 +17,5 @@ def main():
     print(f"Temperature in Fahrenheit: {temperature_as_fahrenheit} F")
 
 
-main()
+if __name__ == "__main__":
+    main()

@@ -24,4 +24,5 @@ def main():
     show_result(is_even)
 
 
-main()
+if __name__ == "__main__":
+    main()
