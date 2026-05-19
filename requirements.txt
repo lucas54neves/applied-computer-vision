@@ -1,0 +1,7 @@
+# Bibliotecas do curso de visão computacional.
+# Adicione aqui as dependências conforme as lições as exigirem
+# (ex.: numpy, opencv-python, matplotlib).
+#
+# NÃO inclua ferramentas de dev (pre-commit, ruff) neste arquivo:
+# elas são instaladas globalmente via `uv tool install` e declaradas
+# em .pre-commit-config.yaml.
